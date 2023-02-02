@@ -1,0 +1,13 @@
+[package]
+authors = ["Torfinn Ingolfsen <tingox@gmail.com>"]
+name = "efm32pg23-blink"
+version = "0.1.0"
+edition = "2023"
+
+[dependencies]
+cortex-m = ">=0.7"
+cortex-m-rt = ">=0.7"
+
+[dependencies.efm32pg23-pac]
+version = "0.1.1"
+features = ["efm32pg23b310"]
