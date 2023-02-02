@@ -2,7 +2,7 @@
 authors = ["Torfinn Ingolfsen <tingox@gmail.com>"]
 name = "efm32pg23-blink"
 version = "0.1.0"
-edition = "2023"
+edition = "2021"
 
 [dependencies]
 cortex-m = ">=0.7"
